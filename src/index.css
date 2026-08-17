@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Montserrat", system-ui, sans-serif;
+  
+  --color-royal-gold: #D4AF37;
+  --color-gold-hover: #B89320;
+  --color-gold-light: #F8F3E6;
+  --color-gold-border: #E8D396;
+  --color-gold-dark: #8C6D1F;
+  --color-ivory: #ffffff;
+  --color-charcoal: #222222;
+}
+
+@layer base {
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+  body, button, input, textarea, select {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B89320;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AKU Luxury Bride",
+  "description": "A modern, elegant luxury bridal boutique specializing in handcrafted wedding gowns, personalized private fittings, and bridal accessories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
